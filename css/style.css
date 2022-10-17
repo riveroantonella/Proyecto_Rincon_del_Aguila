@@ -15,7 +15,7 @@ header{
 }
 
 .listas{
-    padding: 0px;
+    padding: 10px;
     text-align: left;
     float: right;
     margin-top: 30px;
@@ -85,6 +85,11 @@ header{
 
 .img__menus{
     width: 100%;
+    transition: transform 3s;
+}
+
+.img__menus:hover{
+    transform: scale(1.2);
 }
 
 .texto__menus{
