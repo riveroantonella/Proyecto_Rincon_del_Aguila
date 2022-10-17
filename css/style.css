@@ -42,6 +42,7 @@ header{
 
 .logo{
     height: 100px;
+    animation: movimiento 10s;
 }
 
 .banner__index{
@@ -120,4 +121,22 @@ footer{
     text-align: end;
 }
 
-
+@keyframes movimiento{
+    0%{
+        width: 150px;
+    }
+    25%{
+        width: 200px;
+        transform: translateX(500px);
+    }
+    50%{
+        width: 150px;
+    }
+    75%{
+        width: 200px;
+        transform: translate(-300px);
+    }
+    100%{
+        width: 100px;
+    }
+}
