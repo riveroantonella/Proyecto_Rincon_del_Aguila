@@ -1,0 +1,118 @@
+.fondo{
+    background-color: rgb(7, 6, 6);
+}
+
+header{
+    width: 100%;
+    position: sticky;
+    top: 2px;
+    z-index: 2;
+}
+
+.navbar{
+    background-color: white;
+    height: 100px;
+}
+
+.listas{
+    padding: 0px;
+    text-align: left;
+    float: right;
+    margin-top: 30px;
+}
+
+.listas li a{
+    color: rgb(63, 60, 60);
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lista__navbar{
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.titulo__principal{
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    height: 100px;
+}
+
+.banner__index{
+    width: 100%;
+}
+
+.texto__principal{
+    color: aliceblue;
+    text-align: center;
+    font-size: medium;
+    font-family: sans-serif;
+
+}
+ /*Menús*/
+.banner__menus{
+    width: 100%;
+    display: block;
+    position: relative;	
+}
+
+.titulo__menu{
+    background-color: rgba(255,255,255,.8);
+    display: block;
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo__secundario__menu{
+    text-align: center;
+}
+
+.galeria__menus{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+
+.img__menus{
+    width: 100%;
+}
+
+.texto__menus{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Pet friendly*/
+
+.bannerPet{
+    width: 100%;
+}
+
+.img__galeria{
+    width: 30%;
+    height: 500px;
+    padding: 20px;
+}
+
+/*Contactenos*/
+
+
+/*Footer*/
+
+footer{
+    background-color: grey;
+    height: 100px;
+    text-align: end;
+}
+
+
