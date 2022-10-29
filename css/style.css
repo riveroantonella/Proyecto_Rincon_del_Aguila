@@ -1,5 +1,6 @@
 .fondo{
     background-color: rgb(7, 6, 6);
+    margin-left: 1%;
 }
 
 header{
@@ -12,7 +13,12 @@ header{
 .navbar{
     background-color: white;
     height: 100px;
-    padding: 0px;
+    width: 100%;
+    padding: 0%;
+}
+
+.container-fluid{
+    padding: 0%;
 }
 
 .listas{
@@ -48,6 +54,7 @@ header{
 
 .banner__index{
     width: 100%;
+    margin-top: 2%;
 }
 
 .texto__principal{
@@ -60,7 +67,6 @@ header{
 
 .img__galeria{
     width: 30%;
-    height: 500px;
     padding: 20px;
 }
  
@@ -91,6 +97,7 @@ header{
 .galeria__menus{
     display: grid;
     grid-template-columns: 4fr 4fr 4fr;
+    gap: 2%;
 }
 
 .img__menus{
@@ -100,6 +107,11 @@ header{
 
 .img__menus:hover{
     transform: scale(1.2);
+}
+
+.img__wrapper{
+    display: inline-block;
+    overflow: hidden;
 }
 
 .texto__menus{
@@ -121,7 +133,7 @@ header{
 footer{
     background-color: grey;
     height: 100px;
-    text-align: end;
+    text-align: center;
 }
 
 @keyframes movimiento{
