@@ -21,8 +21,8 @@ main{
 }
 
 .logo{
-    height: 100px;
-    animation: movimiento 3s;
+  height: 100px;
+  animation: movimiento 3s;
 }
 
 .banner__index{
@@ -185,7 +185,7 @@ footer p{
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
-  float: right;
+  /*float: right;*/
   padding: 48px 30px;
   position: relative;
   user-select: none;
