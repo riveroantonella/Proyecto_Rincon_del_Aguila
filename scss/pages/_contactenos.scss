@@ -1,0 +1,11 @@
+.rrss{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    gap: 2%;
+    justify-items: center;
+    padding: 2rem;
+}
+
+.rrss__img{
+    width: 30%;
+}
