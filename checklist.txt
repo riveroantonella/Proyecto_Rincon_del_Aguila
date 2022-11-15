@@ -1,0 +1,9 @@
+1-Cambiar clases a ingles
+2-linkear iconos del footer
+3-armar en el inicio una galeria desordenada con buenas fotos
+4-cambiar imagenes del slider principal
+5-cambiar texto de los menus y tamaño de imagenes
+6-agregar mas novedades y tamaño de imagenes
+7-agregar mas contenido en petfriendly
+8-armar el sass con lo q pidio el profesor
+

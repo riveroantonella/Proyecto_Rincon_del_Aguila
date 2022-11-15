@@ -1,11 +1,22 @@
+footer {
+  background-color: grey;
+  height: 140px; }
 
-footer{
-    background-color: grey;
-    height: 100px;
+footer p {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px; }
+  
+.footer_social_links img
+{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+	float: left;
 }
 
-footer p{
-    font-weight: bold;
-    text-align: center;
-    padding-top: 40px;
+.footer_social_container
+{
+	width: 200px;
+	float: right;
 }

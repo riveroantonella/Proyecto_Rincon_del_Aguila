@@ -1,29 +1,55 @@
-.titulo__principal{
-    color: #4A4E69;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 30px;
-}
-
-.logo{
-    height: 100px;
-    animation: movimiento 3s;
-}
-
-.banner__index{
+.banner__index {
     width: 100%;
-    margin-top: 2%;
-}
-
-.texto__principal{
+    margin-top: 2%; }
+  
+.texto__principal {
     color: #9A8C98;
     text-align: left;
     font-size: medium;
     font-family: sans-serif;
-    padding-top: 30px;
-}
-
-.img__galeria{
+    padding-top: 30px; }
+      
+  .main_banner_title {
+      position: absolute;
+      z-index: 1;
+      color: white;
+      top: 50%;
+      left: 0px;
+      width: 100%;
+  }  
+  
+  .main_banner_title h1
+  {
+   font-size: 150px;
+   font-weight: bold;
+  }  
+  
+  .main_banner_title h2
+  {
+   font-size: 390%;
+  } 
+  
+  
+  .img__galeria {
     width: 30%;
-    padding: 20px;
-}
+   }
+
+
+   @media (max-width: 1300px) {
+    .main_banner_title h1
+    {
+     font-size: 85px !important;
+    }  
+    
+    .main_banner_title h2
+    {
+     font-size: 290% !important;
+    } 		
+    }
+    
+    @media (max-width: 770px) {
+    .main_banner_title
+    {
+      display: none;
+    }	
+    }

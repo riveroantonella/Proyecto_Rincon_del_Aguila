@@ -1,3 +1,81 @@
-.bannerPet{
-    width: 100%;
-}
+.bannerPet {
+    width: 100%; }
+    
+  .galery_pet {
+      display: grid;
+      grid-template-columns: 4fr 8fr;
+      gap: 2%;
+      margin-bottom: 40px;
+      border-bottom: 1px solid #9A8C98;
+      padding-bottom: 40px;  
+    }
+    
+    .galery_pet2 {
+      display: grid;
+      grid-template-columns: 8fr 4fr;
+      gap: 2%; 
+      margin-bottom: 40px;
+      border-bottom: 1px solid #9A8C98;
+      padding-bottom: 40px;
+    }
+    
+  .pet_text_container
+  {
+    padding-left: 110px;	
+  }  
+    
+  .img__pet {
+      width: 400px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .rating img
+  {
+      width: 30px;
+  }
+  
+  .rating2 img
+  {
+      width: 30px;
+  }
+  
+  .text__pet{
+    color: #9A8C98;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-style: italic;
+    }
+
+    @media (max-width: 48em) {
+      .galery_pet{
+        grid-template-columns: 12fr !important;
+    }
+    
+    .galery_pet2{
+        grid-template-columns: 12fr !important;
+    }
+    
+    .pet_text_container
+    {
+      padding: 0px !important;
+    }
+    } 
+    
+    @media (max-width: 950px) {
+      .rating
+      {
+        display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 40%;
+      }
+      
+      .rating2
+      {
+        display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 40%;
+      }		
+      }	

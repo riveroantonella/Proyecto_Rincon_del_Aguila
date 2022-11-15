@@ -1,5 +1,15 @@
-.cards{
+.cards {
     display: grid;
     grid-template-columns: 4fr 4fr 4fr;
-    gap: 2%;
-}
+    gap: 2%; }
+    
+  .card
+  {
+      width: 100%;
+  }
+
+  @media (max-width: 48em) {
+    .cards {
+        grid-template-columns: 12fr !important;
+    }
+    }
