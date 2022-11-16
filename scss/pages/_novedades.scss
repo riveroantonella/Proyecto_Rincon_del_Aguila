@@ -1,7 +1,23 @@
+.banner__novedades {
+    width: 100%;
+}
+
+.title__novedades {
+    text-align: center;
+    color: #4A4E69;
+    margin-top: 5%; 
+}
+    
+  .title__novedades h2{
+   font-size: 60px;
+  }
+
 .cards {
     display: grid;
     grid-template-columns: 4fr 4fr 4fr;
-    gap: 2%; }
+    gap: 2%; 
+    margin: 5%;
+}
     
   .card
   {
