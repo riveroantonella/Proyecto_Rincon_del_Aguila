@@ -1,3 +1,4 @@
+@import "./misc/mixins";
 @import "./partials/body";
 @import "./partials/header";
 @import "./partials/footer";
@@ -5,4 +6,5 @@
 @import "./pages/menus";
 @import "./pages/petfriendly";
 @import "./pages/novedades";
-@import "./pages/contactenos"
+@import "./pages/contactenos";
+@import "./misc/mixins";

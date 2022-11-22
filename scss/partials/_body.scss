@@ -13,9 +13,8 @@ body {
 
 .whatsapp_contact{
   position: fixed;
-  width: 50px;
   bottom: 55px;
   left: 20px;
-  height: 50px;
   z-index: 99999999;
+  @include sizes(50px, 50px);
 }
